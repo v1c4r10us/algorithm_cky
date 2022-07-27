@@ -1,0 +1,45 @@
+{
+    "S":{
+        "NP VP" : 0.8
+    },
+    "NP":{
+        "DET NOMINAL": 0.3,
+        "NOMINAL NOMINAL": 0.2,
+        "time": 0.002,
+        "flies": 0.002,
+        "arrow": 0.002
+    },
+    "NOMINAL":{
+        "NOMINAL NOUN": 0.1,
+        "NOMINAL PP": 0.2,
+        "time": 0.002,
+        "flies": 0.002,
+        "arrow": 0.002
+    },
+    "VP": {
+        "VERB NP": 0.3,
+        "VERB PP": 0.2,
+        "time": 0.004,
+        "flies": 0.008,
+        "like": 0.008
+    },
+    "PP": {
+        "PREPOSITION NP": 0.1
+    },
+    "VERB": {
+        "time": 0.01,
+        "flies": 0.02,
+        "like": 0.02
+    },
+    "NOUN": {
+        "time": 0.01,
+        "flies": 0.01,
+        "arrow": 0.01
+    },
+    "DET": {
+        "an":0.05
+    },
+    "PREPOSITION": {
+        "like": 0.05
+    }
+}
